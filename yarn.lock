@@ -1945,6 +1945,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/aws-lambda@npm:^8.10.56":
+  version: 8.10.84
+  resolution: "@types/aws-lambda@npm:8.10.84"
+  checksum: c4013fd6f1a10f3856dbdde839009dbfba93d2157f61ea38eccfa74dac0ea96f16da8044c473a0cb442d5dce148a22f3219d993bf41be26c470d398440ca9151
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.0.0, @types/babel__core@npm:^7.1.14":
   version: 7.1.15
   resolution: "@types/babel__core@npm:7.1.15"
@@ -9180,6 +9187,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"serverless-http@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "serverless-http@npm:2.7.0"
+  dependencies:
+    "@types/aws-lambda": ^8.10.56
+  dependenciesMeta:
+    "@types/aws-lambda":
+      optional: true
+  checksum: caf128423daa23c2d20a805560a34ca3a7fe576400a2f2a27505d42031c6c94b2f4fbcf85e1adf6fa750f4efa11d00454559511331771295daadff31ed5564a6
+  languageName: node
+  linkType: hard
+
 "set-blocking@npm:~2.0.0":
   version: 2.0.0
   resolution: "set-blocking@npm:2.0.0"
@@ -10248,6 +10267,7 @@ __metadata:
     pg: ^8.6.0
     prettier: ^2.3.2
     rimraf: ^3.0.2
+    serverless-http: ^2.7.0
     supertest: ^6.1.4
     sync-dotenv: ^2.6.2
     ts-node: ^10.1.0
@@ -10271,11 +10291,11 @@ typescript@^4.3.5:
 
 "typescript@patch:typescript@^4.3.5#~builtin<compat/typescript>":
   version: 4.3.5
-  resolution: "typescript@patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"
+  resolution: "typescript@patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=32657b"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: bc2c4fdf0f1557fdafe4ef74848c72ebd9c8c60829568248f869121aea2bb20e16649a252431d0acb185ec118143be22bed73d08f64379557810d82756afedde
+  checksum: 4e2edec3c9b7b9a22ad9cbf9371339d9e13bfe44731f0e2d6a5287f991c3b0e3e0ac0c0ebbf9bf6fc2051e30559c789bfc9cf572cd6b836a0222ae141fac1dba
   languageName: node
   linkType: hard
 
